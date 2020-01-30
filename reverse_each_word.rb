@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
     new_sentance.map do |word|
      reverse_sentance = word
 end
-reverse_sentance.reverse.join(" ")
+new_sentance.reverse.join(" ")
 end
